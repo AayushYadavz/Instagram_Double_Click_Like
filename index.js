@@ -9,7 +9,4 @@ mainImg.addEventListener('dblclick', function(){
     setTimeout(() => {
         icon.style.opacity = 0
     }, 1000) /* 1000 = 1 second */
-    // setTimeout(() => {
-    //     icon.style.transform = 'translate(-50%, -50%) scale(0)'
-    // }, 2000)
 });
