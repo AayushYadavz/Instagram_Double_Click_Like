@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#container {
+    background-color: #fff;
+    height: 400px;
+    width: 320px;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#container:hover {
+    box-shadow: 6px 8px 0px 4px #fccc63;
+}
+
+#head {
+    display: flex;
+    align-items: center;   
+    padding: 5px; 
+}
+
+#head img {
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    border: 3px solid #F56040;
+}
+
+#head p {
+    margin-left: 7px;
+    font-weight: 600;
+}
+
+#head i {
+    font-weight: 800;
+    margin-left: 145px;
+}
+
+#main-img {
+    position: relative;
+}
+
+#main-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 7px 0 0;
+}
+
+#main-img i {
+    color: #ee2a7b;
+    font-size: 80px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* scale value 0 so item will be hidden from the div. */
+    opacity: 0;
+    transition: transform ease 0.4s; /* transition will be only put on transform. */
+}
