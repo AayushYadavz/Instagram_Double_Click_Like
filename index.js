@@ -12,8 +12,4 @@ mainImg.addEventListener('dblclick', function(){
     setTimeout(() => {
         icon.style.transform = 'translate(-50%, -50%) scale(0)'
     }, 2000);
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> c566181ec2725cdde7f965d55b65025379377de9
